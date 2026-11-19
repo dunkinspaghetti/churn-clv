@@ -1,0 +1,315 @@
+{
+ "clean_rows": 802634,
+ "customers": 5852,
+ "total_clv": 8888115.02082266,
+ "bt_pred": 0.4832718477281136,
+ "bt_act": 0.48081583198707595,
+ "bt_bands": [
+  {
+   "band": "low",
+   "customers": 1183,
+   "predicted": 0.10945232422358034,
+   "actual": 0.1014370245139476
+  },
+  {
+   "band": "mid",
+   "customers": 1700,
+   "predicted": 0.4380611599023179,
+   "actual": 0.4223529411764706
+  },
+  {
+   "band": "high",
+   "customers": 2069,
+   "predicted": 0.7341595546443608,
+   "actual": 0.7457709038182697
+  }
+ ],
+ "at_stake": 826740.5465900658,
+ "rho": -0.855730293230782,
+ "cells": [
+  {
+   "band": "low",
+   "tier": "Q1 lowest",
+   "customers": 35,
+   "mean_risk": 0.17357083840134382,
+   "total_clv": 5193.418105257101,
+   "mean_value_if_kept": 173.36041528579037,
+   "at_stake": 746.7258058924609,
+   "share_of_at_stake": 0.0009032166245775292
+  },
+  {
+   "band": "low",
+   "tier": "Q2",
+   "customers": 279,
+   "mean_risk": 0.1711201044320474,
+   "total_clv": 105371.31798398605,
+   "mean_value_if_kept": 434.69153463209807,
+   "at_stake": 14714.104597290068,
+   "share_of_at_stake": 0.017797729478709074
+  },
+  {
+   "band": "low",
+   "tier": "Q3",
+   "customers": 809,
+   "mean_risk": 0.11656222911297329,
+   "total_clv": 701447.2239728823,
+   "mean_value_if_kept": 987.5468317288389,
+   "at_stake": 59557.8810780083,
+   "share_of_at_stake": 0.07203938566175067
+  },
+  {
+   "band": "low",
+   "tier": "Q4 top",
+   "customers": 1352,
+   "mean_risk": 0.047559510897473574,
+   "total_clv": 6393635.007706243,
+   "mean_value_if_kept": 5232.903695083432,
+   "at_stake": 92691.13453593686,
+   "share_of_at_stake": 0.11211635248597183
+  },
+  {
+   "band": "mid",
+   "tier": "Q1 lowest",
+   "customers": 327,
+   "mean_risk": 0.46154257958880246,
+   "total_clv": 44114.847614188635,
+   "mean_value_if_kept": 177.48228629092563,
+   "at_stake": 16852.51251037062,
+   "share_of_at_stake": 0.020384282082062718
+  },
+  {
+   "band": "mid",
+   "tier": "Q2",
+   "customers": 712,
+   "mean_risk": 0.4466021575286939,
+   "total_clv": 254770.96195964832,
+   "mean_value_if_kept": 450.999640259238,
+   "at_stake": 102694.58386906626,
+   "share_of_at_stake": 0.1242162178843597
+  },
+  {
+   "band": "mid",
+   "tier": "Q3",
+   "customers": 638,
+   "mean_risk": 0.375015607031205,
+   "total_clv": 512029.3100262586,
+   "mean_value_if_kept": 965.8601394983605,
+   "at_stake": 191847.5169036523,
+   "share_of_at_stake": 0.2320528703895524
+  },
+  {
+   "band": "mid",
+   "tier": "Q4 top",
+   "customers": 108,
+   "mean_risk": 0.3352211935649595,
+   "total_clv": 579300.3466559021,
+   "mean_value_if_kept": 6617.242840389936,
+   "at_stake": 159076.71138265834,
+   "share_of_at_stake": 0.19241430946961346
+  },
+  {
+   "band": "high",
+   "tier": "Q1 lowest",
+   "customers": 1101,
+   "mean_risk": 0.7397107525153013,
+   "total_clv": 151395.63604544522,
+   "mean_value_if_kept": 348.737457262302,
+   "at_stake": 106699.32547883867,
+   "share_of_at_stake": 0.12906023046640877
+  },
+  {
+   "band": "high",
+   "tier": "Q2",
+   "customers": 472,
+   "mean_risk": 0.6609209363954475,
+   "total_clv": 123686.2092184083,
+   "mean_value_if_kept": 450.88025369667724,
+   "at_stake": 76315.28579599327,
+   "share_of_at_stake": 0.09230862827613767
+  },
+  {
+   "band": "high",
+   "tier": "Q3",
+   "customers": 16,
+   "mean_risk": 0.6931137665354808,
+   "total_clv": 11653.106886128207,
+   "mean_value_if_kept": 1871.3008374378692,
+   "at_stake": 4952.191572750841,
+   "share_of_at_stake": 0.005990018988637259
+  },
+  {
+   "band": "high",
+   "tier": "Q4 top",
+   "customers": 3,
+   "mean_risk": 0.6839036831692892,
+   "total_clv": 5517.634648312768,
+   "mean_value_if_kept": 5645.330788543004,
+   "at_stake": 592.5730596079416,
+   "share_of_at_stake": 0.0007167581922188766
+  }
+ ],
+ "strategies": [
+  {
+   "strategy": "highest risk first",
+   "contacted": 2000,
+   "cost": 50000,
+   "expected_recovered": 37892.52521075354,
+   "net": -12107.474789246458,
+   "mean_risk": 0.683231209766853,
+   "mean_clv": 210.3199907763546,
+   "share_high_risk_low_value": 0.7865
+  },
+  {
+   "strategy": "highest CLV first",
+   "contacted": 2000,
+   "cost": 50000,
+   "expected_recovered": 52599.205764192055,
+   "net": 2599.2057641920546,
+   "mean_risk": 0.10100238880321731,
+   "mean_clv": 3776.7105608737143,
+   "share_high_risk_low_value": 0.0
+  },
+  {
+   "strategy": "highest value at stake first",
+   "contacted": 2000,
+   "cost": 50000,
+   "expected_recovered": 90860.24267612262,
+   "net": 40860.24267612262,
+   "mean_risk": 0.45878411760594456,
+   "mean_clv": 1037.6684871376729,
+   "share_high_risk_low_value": 0.325
+  },
+  {
+   "strategy": "random",
+   "contacted": 2000,
+   "cost": 50000,
+   "expected_recovered": 52289.647951912026,
+   "net": 2289.6479519120257,
+   "mean_risk": 0.36186431870946933,
+   "mean_clv": 1537.700499414853,
+   "share_high_risk_low_value": 0.2685
+  }
+ ],
+ "n_contacts": 2000,
+ "breakeven": [
+  {
+   "band": "low",
+   "Q1 lowest": 3.2,
+   "Q2": 7.9,
+   "Q3": 11.0,
+   "Q4 top": 10.3
+  },
+  {
+   "band": "mid",
+   "Q1 lowest": 7.7,
+   "Q2": 21.6,
+   "Q3": 45.1,
+   "Q4 top": 220.9
+  },
+  {
+   "band": "high",
+   "Q1 lowest": 14.5,
+   "Q2": 24.3,
+   "Q3": 46.4,
+   "Q4 top": 29.6
+  }
+ ],
+ "sens": [
+  {
+   "cost_per_contact": 10,
+   "save_rate": 0.05,
+   "contacts": 999,
+   "net": 12175.402115970712
+  },
+  {
+   "cost_per_contact": 10,
+   "save_rate": 0.1,
+   "contacts": 2909,
+   "net": 42278.96712018701
+  },
+  {
+   "cost_per_contact": 10,
+   "save_rate": 0.15,
+   "contacts": 3528,
+   "net": 79334.43846385674
+  },
+  {
+   "cost_per_contact": 10,
+   "save_rate": 0.25,
+   "contacts": 4245,
+   "net": 158015.75688131538
+  },
+  {
+   "cost_per_contact": 25,
+   "save_rate": 0.05,
+   "contacts": 49,
+   "net": 6030.793288356422
+  },
+  {
+   "cost_per_contact": 25,
+   "save_rate": 0.1,
+   "contacts": 698,
+   "net": 20204.047286363246
+  },
+  {
+   "cost_per_contact": 25,
+   "save_rate": 0.15,
+   "contacts": 1318,
+   "net": 42290.06543843512
+  },
+  {
+   "cost_per_contact": 25,
+   "save_rate": 0.25,
+   "contacts": 2000,
+   "net": 101433.7377935377
+  },
+  {
+   "cost_per_contact": 50,
+   "save_rate": 0.05,
+   "contacts": 10,
+   "net": 5528.579375202687
+  },
+  {
+   "cost_per_contact": 50,
+   "save_rate": 0.1,
+   "contacts": 49,
+   "net": 12061.586576712843
+  },
+  {
+   "cost_per_contact": 50,
+   "save_rate": 0.15,
+   "contacts": 454,
+   "net": 23141.357811935246
+  },
+  {
+   "cost_per_contact": 50,
+   "save_rate": 0.25,
+   "contacts": 999,
+   "net": 60877.01057985355
+  },
+  {
+   "cost_per_contact": 100,
+   "save_rate": 0.05,
+   "contacts": 4,
+   "net": 5232.219105850361
+  },
+  {
+   "cost_per_contact": 100,
+   "save_rate": 0.1,
+   "contacts": 10,
+   "net": 11057.158750405373
+  },
+  {
+   "cost_per_contact": 100,
+   "save_rate": 0.15,
+   "contacts": 21,
+   "net": 17281.80778057735
+  },
+  {
+   "cost_per_contact": 100,
+   "save_rate": 0.25,
+   "contacts": 229,
+   "net": 33068.12109955124
+  }
+ ]
+}
